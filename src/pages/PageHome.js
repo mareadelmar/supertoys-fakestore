@@ -38,7 +38,8 @@ const PageHome = () => {
                 <p>
                     Somos un emprendimiento nuevo, falso y en crecimiento. Nace
                     de una estudiante que quiere probar Mongo Atlas y Strapi
-                    para realizar una tienda virtual.
+                    para realizar una tienda virtual. En la pestaña productos
+                    podrás encontrar nuestra selección de figuras.
                 </p>
             </div>
         </section>
