@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+}
+
+.navweb {
+    display: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 16px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    margin: 16px 24px 0 0;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.nav-list li a:hover {
+    color: #e84345;
+}
+
+.navmovil {
+    justify-content: flex-end;
+}
+
+.navmovil img {
+    width: 32px;
+    margin: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-title {
+    font-family: "Bangers", cursive;
+    font-size: 64px;
+    margin: 16px;
+    color: #e84345;
+}
+
+@media (min-width: 800px) {
+    .navmovil {
+        display: none;
+    }
+    .navweb {
+        display: block;
+    }
+}

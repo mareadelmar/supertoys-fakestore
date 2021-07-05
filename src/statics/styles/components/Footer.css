@@ -1,0 +1,10 @@
+.footer-container {
+    height: 12vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #e84345;
+}
+
+.footer-container footer p {
+    color: #f2f2f2;
+}
